@@ -1,0 +1,18 @@
+1)http1.1 vs http2
+	http1.1
+		-There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources
+		-It uses requests resource Inlining for use getting multiple pages
+		-It compresses data by itself.
+	http2
+		-It allows multiplexing so one TCP connection is required for multiple requests
+		-It uses PUSH frame by server that collects all multiple pages 
+		-It uses HPACK for data compression.
+
+
+
+
+2) Object
+		An object refers to any item, either in the physical or virtual world. For example, a computer is considered an object in the physical world. 
+		In the virtual world, a document, file, folder, icon, picture are all considered objects
+	In javascript an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. 
+	A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
